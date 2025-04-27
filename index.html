@@ -15,35 +15,50 @@
   </head>
   <body>
     <nav
-      class="flex justify-between items-center py-4 px-6 text-xs  text-[#202142b3]"
+      class="flex justify-between items-center py-4 px-6 text-xs text-[#202142b3]"
     >
       <div class="">
         <img src="./public/uidesigndaily.svg" class="w-25" />
       </div>
-      <div class="flex ">
-        <a href="" class="bg-[#F1F1FD] rounded-2xl text-[#202142] "><span>Free Designs</span></a>
+      <div class="flex">
+        <a href="" class="bg-[#F1F1FD] rounded-2xl text-[#202142]"
+          ><span>Free Designs</span></a
+        >
         <a href="" class=""><span>Licence</span></a>
         <a href="" class=""><span>Articles</span></a>
         <a href="" class=""><span>Contributors</span></a>
         <a href="" class=""><span>About</span></a>
       </div>
       <div>
-        <button class="px-[30px] py-[15px] text-[#202142]"><span>Log In</span></button>
-        <button class="px-[30px] py-[15px] rounded-[0.5rem] text-white bg-[#202142]"><span>Sign Up</span></button>
+        <button class="px-[30px] py-[15px] text-[#202142]">
+          <span>Log In</span>
+        </button>
+        <button
+          class="px-[30px] py-[15px] rounded-[0.5rem] text-white bg-[#202142]"
+        >
+          <span>Sign Up</span>
+        </button>
       </div>
     </nav>
-    <section class="">
-      <h3>Free UI resources for everyone</h3>
-      <p>
+    <section
+      class="flex flex-col mt-[2rem] items-center justify-center text-center text-[#202142]"
+    >
+      <h3 class="text-[22px] font-bold m-2">Free UI resources for everyone</h3>
+      <p class="my-2.5 max-w-[50%] text-[1rem]">
         The largest database of 100% free UI components and designs available in
         the formats popular by UI designers.
       </p>
-      <div>
-        <div class="">
-          <span>Free Design</span>
-          <img src="" alt="" />
+      <div
+        class="flex flex-row justify-start my-6 p-4 gap-2 border border-[#e6e6e6] rounded-lg shadow-sm w-[50%]"
+      >
+        <button><span>Free Design</span> <img src="./public/dropdown.svg" alt="" /></button>
+        <div class="border-l border-[#e6e6e6]">
+          <input
+            type="text"
+            placeholder="Search"
+            class="outline-none border-none"
+          />
         </div>
-        <input type="text" />
       </div>
     </section>
     <script type="module" src="/src/main.js"></script>
